@@ -4,6 +4,5 @@
  * @returns {string} - The full path with base URL
  */
 export const getAssetPath = (path) => {
-  const baseUrl = import.meta.env.BASE_URL || '/uzofin-react/';
-  return `${baseUrl}${path}`;
+  return `/uzofin-react/${path}`;
 };
