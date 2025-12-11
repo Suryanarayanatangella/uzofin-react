@@ -13,14 +13,17 @@ import CTASection from './components/sections/CTASection';
 import Footer from './components/layout/Footer';
 
 function App() {
+  // Get base URL - fallback to current path if BASE_URL is not available
+  const baseUrl = import.meta.env.BASE_URL || '/uzofin-react/';
+  
   // Memoize scripts array to prevent re-creation on every render
   const scripts = useMemo(() => [
-    { src: `${import.meta.env.BASE_URL}js/jquery-3.7.1.min.js`, id: 'jquery' },
-    { src: `${import.meta.env.BASE_URL}js/bootstrap.bundle.min.js`, id: 'bootstrap' },
-    { src: `${import.meta.env.BASE_URL}js/owl.carousel.min.js`, id: 'owl-carousel' },
-    { src: `${import.meta.env.BASE_URL}js/swiper-bundle.min.js`, id: 'swiper' },
-    { src: `${import.meta.env.BASE_URL}js/script.js`, id: 'custom-script' }
-  ], []);
+    { src: `${baseUrl}js/jquery-3.7.1.min.js`, id: 'jquery' },
+    { src: `${baseUrl}js/bootstrap.bundle.min.js`, id: 'bootstrap' },
+    { src: `${baseUrl}js/owl.carousel.min.js`, id: 'owl-carousel' },
+    { src: `${baseUrl}js/swiper-bundle.min.js`, id: 'swiper' },
+    { src: `${baseUrl}js/script.js`, id: 'custom-script' }
+  ], [baseUrl]);
 
   useScriptLoader(scripts);
 
