@@ -15,11 +15,11 @@ import Footer from './components/layout/Footer';
 function App() {
   // Memoize scripts array to prevent re-creation on every render
   const scripts = useMemo(() => [
-    { src: '/js/jquery-3.7.1.min.js', id: 'jquery' },
-    { src: '/js/bootstrap.bundle.min.js', id: 'bootstrap' },
-    { src: '/js/owl.carousel.min.js', id: 'owl-carousel' },
-    { src: '/js/swiper-bundle.min.js', id: 'swiper' },
-    { src: '/js/script.js', id: 'custom-script' }
+    { src: `${import.meta.env.BASE_URL}js/jquery-3.7.1.min.js`, id: 'jquery' },
+    { src: `${import.meta.env.BASE_URL}js/bootstrap.bundle.min.js`, id: 'bootstrap' },
+    { src: `${import.meta.env.BASE_URL}js/owl.carousel.min.js`, id: 'owl-carousel' },
+    { src: `${import.meta.env.BASE_URL}js/swiper-bundle.min.js`, id: 'swiper' },
+    { src: `${import.meta.env.BASE_URL}js/script.js`, id: 'custom-script' }
   ], []);
 
   useScriptLoader(scripts);
