@@ -8,7 +8,7 @@ const Header = () => {
           <div className="nav-main">
             <div className="logo-prt">
               <a className="navbar-brand" href="#" aria-label="UzoFin Home">
-                <img src="/images/logo.svg" alt="UzoFinbanking logo" />
+                <img src="./images/logo.svg" alt="UzoFinbanking logo" />
               </a>
               <button 
                 className="navbar-toggler" 
@@ -67,13 +67,13 @@ const Header = () => {
               </ul>
               <div className="d-dislay-none">
                 <a className="btn btn-primary-custom" href="#get-started" role="button">
-                  Get Started <span className="right-arrow" aria-hidden="true"><img src="/images/Arrow.svg" alt="" width="16" height="16"/></span>
+                  Get Started <span className="right-arrow" aria-hidden="true"><img src="./images/Arrow.svg" alt="" width="16" height="16"/></span>
                 </a>
               </div>
             </div>
             <div className="m-dislay-none">
               <a className="btn btn-primary-custom" href="#get-started" role="button">
-                Start building <span className="right-arrow" aria-hidden="true"><img src="/images/Arrow.svg" alt="" width="16" height="16"/></span>
+                Start building <span className="right-arrow" aria-hidden="true"><img src="./images/Arrow.svg" alt="" width="16" height="16"/></span>
               </a>
             </div>
           </div>

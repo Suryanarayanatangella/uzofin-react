@@ -47,14 +47,14 @@ const IndustrySection = () => {
               Standard
             </h2>
             <ul className="industry-list">
-              <li><span className="check-icon"><img src="/images/task_alt.svg" alt="Check list"/></span> Modern & clean design</li>
-              <li><span className="check-icon"><img src="/images/task_alt.svg" alt="Check list"/></span> Easy to customize</li>
-              <li><span className="check-icon"><img src="/images/task_alt.svg" alt="Check list"/></span> Scalability & Integration</li>
-              <li><span className="check-icon"><img src="/images/task_alt.svg" alt="Check list"/></span> Step-by-step guide</li>
-              <li><span className="check-icon"><img src="/images/task_alt.svg" alt="Check list"/></span> SaaS based solution</li>
+              <li><span className="check-icon"><img src="./images/task_alt.svg" alt="Check list"/></span> Modern & clean design</li>
+              <li><span className="check-icon"><img src="./images/task_alt.svg" alt="Check list"/></span> Easy to customize</li>
+              <li><span className="check-icon"><img src="./images/task_alt.svg" alt="Check list"/></span> Scalability & Integration</li>
+              <li><span className="check-icon"><img src="./images/task_alt.svg" alt="Check list"/></span> Step-by-step guide</li>
+              <li><span className="check-icon"><img src="./images/task_alt.svg" alt="Check list"/></span> SaaS based solution</li>
             </ul>
             <a href="#learn-more" className="btn btn-primary-custom mt-4" role="button">
-              Get Started <span className="right-arrow" aria-hidden="true"><img src="/images/Arrow.svg" alt="" width="16" height="16"/></span>
+              Get Started <span className="right-arrow" aria-hidden="true"><img src="./images/Arrow.svg" alt="" width="16" height="16"/></span>
             </a>
           </div>
           <div className="col-lg-8">
@@ -64,27 +64,27 @@ const IndustrySection = () => {
                   <div className="swiper-wrapper">
                     <div className="swiper-slide">
                       <div className="card-item">
-                        <img src="/images/slide1.svg" alt="Digital Payments" />
+                        <img src="./images/slide1.svg" alt="Digital Payments" />
                       </div>
                     </div>
                     <div className="swiper-slide">
                       <div className="card-item">
-                        <img src="/images/slide2.svg" alt="Neo Bank" />
+                        <img src="./images/slide2.svg" alt="Neo Bank" />
                       </div>
                     </div>
                     <div className="swiper-slide">
                       <div className="card-item">
-                        <img src="/images/slide3.svg" alt="AI-Powered" />
+                        <img src="./images/slide3.svg" alt="AI-Powered" />
                       </div>
                     </div>
                     <div className="swiper-slide">
                       <div className="card-item">
-                        <img src="/images/slide4.svg" alt="Slide 4" />
+                        <img src="./images/slide4.svg" alt="Slide 4" />
                       </div>
                     </div>
                     <div className="swiper-slide">
                       <div className="card-item">
-                        <img src="/images/slide5.svg" alt="Slide 5" />
+                        <img src="./images/slide5.svg" alt="Slide 5" />
                       </div>
                     </div>
                   </div>

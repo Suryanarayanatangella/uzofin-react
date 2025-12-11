@@ -10,7 +10,7 @@ const APISection = () => {
             Plug into secure, developer-friendly financial API's and launch in days, not months
           </p>
           <a href="#docs" className="btn btn-primary-custom btn-lg mt-3" role="button">
-            Start building <span className="right-arrow" aria-hidden="true"><img src="/images/Arrow.svg" alt="" width="16" height="16"/></span>
+            Start building <span className="right-arrow" aria-hidden="true"><img src="./images/Arrow.svg" alt="" width="16" height="16"/></span>
           </a>
         </div>
       </div>

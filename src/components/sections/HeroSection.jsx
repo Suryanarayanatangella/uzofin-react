@@ -19,10 +19,10 @@ const HeroSection = () => {
               </p>
               <div className="hero-buttons">
                 <a href="#get-started" className="btn btn-primary-custom btn-lg" role="button" title="Start using UzoFin's AI-powered banking solutions">
-                  Get Started <span className="right-arrow" aria-hidden="true"><img src="/images/Arrow.svg" alt="" width="16" height="16"/></span>
+                  Get Started <span className="right-arrow" aria-hidden="true"><img src="./images/Arrow.svg" alt="" width="16" height="16"/></span>
                 </a>
                 <a href="#about" className="btn btn-outline-custom btn-lg" role="button" title="Learn more about UzoFin">
-                  About Us <span className="right-arrow" aria-hidden="true"><img src="/images/Arrow.svg" alt="" width="16" height="16"/></span>
+                  About Us <span className="right-arrow" aria-hidden="true"><img src="./images/Arrow.svg" alt="" width="16" height="16"/></span>
                 </a>
               </div>
             </div>

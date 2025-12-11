@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6 mb-4">
-            <h3 className="footer-brand"><img src="/images/footer-logo.svg" alt="UZOFIN logo"/></h3>
+            <h3 className="footer-brand"><img src="./images/footer-logo.svg" alt="UZOFIN logo"/></h3>
             <p className="footer-description">
               Experience the new age of payments with UzOFin and explore new growth opportunities to reach greater heights.
             </p>

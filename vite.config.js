@@ -17,5 +17,7 @@ export default defineConfig({
         }
       }
     }
-  }
+  },
+  // Ensure public assets are served correctly
+  publicDir: 'public'
 })

@@ -25,25 +25,25 @@ const CompaniesCarousel = () => {
         <h5>Powering tools and integration for companies around the world</h5>
         <div className="owl-carousel companies-carousel">
           <div className="company-logo">
-            <img src="/images/image-1.svg" alt="PayPal" loading="lazy" />
+            <img src="./images/image-1.svg" alt="PayPal" loading="lazy" />
           </div>
           <div className="company-logo">
-            <img src="/images/image-2.svg" alt="Stripe" loading="lazy" />
+            <img src="./images/image-2.svg" alt="Stripe" loading="lazy" />
           </div>
           <div className="company-logo">
-            <img src="/images/image-3.svg" alt="Mastercard" loading="lazy" />
+            <img src="./images/image-3.svg" alt="Mastercard" loading="lazy" />
           </div>
           <div className="company-logo">
-            <img src="/images/image-4.svg" alt="Google" loading="lazy" />
+            <img src="./images/image-4.svg" alt="Google" loading="lazy" />
           </div>
           <div className="company-logo">
-            <img src="/images/image-5.svg" alt="Shopify" loading="lazy" />
+            <img src="./images/image-5.svg" alt="Shopify" loading="lazy" />
           </div>
           <div className="company-logo">
-            <img src="/images/image-1.svg" alt="Revolut" loading="lazy" />
+            <img src="./images/image-1.svg" alt="Revolut" loading="lazy" />
           </div>
           <div className="company-logo">
-            <img src="/images/image-2.svg" alt="Wise" loading="lazy" />
+            <img src="./images/image-2.svg" alt="Wise" loading="lazy" />
           </div>
         </div>
       </div>

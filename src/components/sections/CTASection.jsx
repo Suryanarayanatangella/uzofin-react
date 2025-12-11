@@ -10,10 +10,10 @@ const CTASection = () => {
           </h2>
           <div className="cta-buttons">
             <a href="#demo" className="btn btn-primary-custom btn-lg" role="button">
-              Book a Demo <span className="right-arrow" aria-hidden="true"><img src="/images/Arrow.svg" alt="" width="16" height="16"/></span>
+              Book a Demo <span className="right-arrow" aria-hidden="true"><img src="./images/Arrow.svg" alt="" width="16" height="16"/></span>
             </a>
             <a href="#buildai" className="btn btn-outline-custom btn-lg" role="button">
-              Build AI <span className="right-arrow" aria-hidden="true"><img src="/images/Arrow.svg" alt="" width="16" height="16"/></span>
+              Build AI <span className="right-arrow" aria-hidden="true"><img src="./images/Arrow.svg" alt="" width="16" height="16"/></span>
             </a>
           </div>
         </div>

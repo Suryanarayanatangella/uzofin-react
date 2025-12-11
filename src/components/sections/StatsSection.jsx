@@ -14,7 +14,7 @@ const StatsSection = () => {
                 </h2>
               </div>
               <div className="img-blk">
-                <img src="/images/highlight.png" alt="3D abstract visualization showing financial data flow" className="stats-image" width="500" height="400" loading="lazy" />
+                <img src="./images/highlight.png" alt="3D abstract visualization showing financial data flow" className="stats-image" width="500" height="400" loading="lazy" />
               </div>
             </div>
           </div>
