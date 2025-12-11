@@ -1,0 +1,18 @@
+/* Import Bootstrap CSS */
+@import '/css/bootstrap.min.css';
+
+/* Import Owl Carousel CSS */
+@import '/css/owl.carousel.min.css';
+@import '/css/owl.theme.default.min.css';
+
+/* Import Swiper CSS */
+@import '/css/swiper-bundle.min.css';
+
+/* Import Custom CSS */
+@import '/css/style.css';
+
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
